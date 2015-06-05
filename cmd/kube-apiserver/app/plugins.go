@@ -34,6 +34,7 @@ import (
 	_ "github.com/GoogleCloudPlatform/kubernetes/plugin/pkg/admission/deny"
 	_ "github.com/GoogleCloudPlatform/kubernetes/plugin/pkg/admission/exec/denyprivileged"
 	_ "github.com/GoogleCloudPlatform/kubernetes/plugin/pkg/admission/limitranger"
+	_ "github.com/GoogleCloudPlatform/kubernetes/plugin/pkg/admission/env_var_injector"
 	_ "github.com/GoogleCloudPlatform/kubernetes/plugin/pkg/admission/namespace/autoprovision"
 	_ "github.com/GoogleCloudPlatform/kubernetes/plugin/pkg/admission/namespace/exists"
 	_ "github.com/GoogleCloudPlatform/kubernetes/plugin/pkg/admission/namespace/lifecycle"
